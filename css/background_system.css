@@ -1,0 +1,76 @@
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+ul,li{
+    list-style: none;
+}
+/*公共样式：*/
+.clickColor{
+    color: #00a8f1;
+    border-left: 3px solid #00a8f1;
+}
+/*页面样式start*/
+.container_self{
+    width: 1230px;
+    height: auto;
+    margin: 0 auto ;
+}
+.nav_title_system{
+    width: 1230px;
+    height: 54px;
+    line-height: 54px;
+    color: #fff;
+    background-color: dodgerblue;
+    padding: 0 20px;
+}
+.allContent_system{
+    width: 1230px;
+    margin-top: 30px;
+}
+/*导航样式*/
+.nav_system{
+    width: 214px;
+    font-size: 12px;
+    background-color: #F6F5F4;
+    padding: 15px 0;
+    float: left;
+}
+.nav_first{
+    font-size: 16px;
+    padding: 0 15px;
+    margin-top: 12px;
+}
+.nav_first_first{
+    margin-top: 0;
+}
+.nav_second{
+    padding-top: 12px;
+    display: none;
+}
+.nav_second>li{
+    padding-left: 30px;
+}
+/*内容样式*/
+.content_system{
+    margin-left: 20px;
+    float: left;
+}
+.nav_levelSame{
+    width: 996px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #F6F5F4;
+    padding-left: 15px;
+}
+.content_detail{
+    width: 996px;
+    margin-top: 20px;
+}
